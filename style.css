@@ -19,11 +19,8 @@ html, body {
     @media screen and (max-width: 580px)  {{
 . view {
 width: 400px;
-}
-}
- {.row {
-  flex-direction: column;
-     }}};
+    flex-direction: column;
+ }}};
     background-size: cover;
     background-position: center;
     display: flex;
