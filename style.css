@@ -15,18 +15,18 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    max-width: 100%;
+    max-width: 1440px;
+    @media screen and (max-width: 600px) {
+    . view {
+    width: 375px;
+    }
+    };
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-@media screen and (max-width: 600px) {
-    . view {width: 375px;}
-}
-
 
 .heading{
     color: #fff;
