@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+.full-screen-container{
+    background-color: rgb(240, 97, 97);
+    background-image: url(https://drive.google.com/file/d/1nEutzDG8bc8ZgtqHpEeaRSAa1tH2N3gu/view?usp=sharing) no repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color: #fff;
+    margin-right: 15rem;
+    font-size: 40px;
+}
+
+.sub-heading{
+    color: #fff;
+    line-height: 30px;
+}
+
+.sign-in{
+    margin-bottom: 1.5rem;
+}
+
+input::placeholder {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 25px 5px;
+}
+
+b{
+    font-weight: 900;
+}
+
+.try-it{
+    flex-direction: column;
+    background-color: purple;
+    color: #fff;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px ;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+.login-container{
+    background-color: #fff;
+    padding: 20px;
+    min-width: 400px;
+    width: 70px;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    color: white;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+h6{
+    color: rgb(207, 204, 204);
+}
+
+a{
+    color: rgb(240, 30, 30);
+    text-decoration: none;
+}
+
+.input-group input {
+    font-size: 15px;
+    padding: 15px 15px;
+    border: 1px solid hsl(195, 4%, 79%);
+    outline: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+ 
+
+.login-button{
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(78, 194, 78);
+    border: 1px solid rgb(78, 194, 78);
+    outline: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color:  green;
+}
+ 
+
