@@ -33,6 +33,9 @@ html, body {
         align-items:center;
         margin:auto;
     }
+    .try-it{
+        width:50%;
+    }
 }
 
 .heading{
