@@ -27,18 +27,17 @@ html, body {
    .intro{
        width:100%;
        align-items:center;
-       margin:auto;
    }
     .sign-in{
         width:100%;
         align-items:center;
-        margin:auto;
     }
     .try-it{
         width:50%;
         align-items:center;
         padding:20px;
-        margin:auto
+        margin:auto;
+    }
 }
 
 .heading{
