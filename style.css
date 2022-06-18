@@ -26,10 +26,16 @@ html, body {
 @media screen and (max-width:600px){
    .intro{
        width:100%;
+       align-items:center;
    }
     .sign-in{
-        width:100%
+        width:100%;
+        align-items:center;
     }
+    .try-it{
+        width:50%;
+        align-items:center;
+        padding:20px;
 }
 
 .heading{
